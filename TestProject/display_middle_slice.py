@@ -23,13 +23,13 @@ def display_middle_slice(nifti_path: str, plane: str = "axial"):
     
     # Choose slice index
     if plane == "axial":
-        idx = vol.shape[2] // 2
+        idx = vol.shape[2] 
         slice_img = vol[:, :, idx].T
     elif plane == "coronal":
-        idx = vol.shape[1] // 2
+        idx = vol.shape[1]
         slice_img = vol[:, idx, :].T
     elif plane == "sagittal":
-        idx = vol.shape[0] // 2
+        idx = vol.shape[0]
         slice_img = vol[idx, :, :].T
     else:
         raise ValueError("Plane must be 'axial', 'coronal', or 'sagittal'")
