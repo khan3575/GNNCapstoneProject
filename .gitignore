@@ -1,0 +1,10 @@
+# Virtual environments
+.env/
+venv/
+
+# Dataset folder
+dataset/
+
+# Bytecode, caches
+__pycache__/
+*.pyc
