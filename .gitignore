@@ -1,4 +1,11 @@
-# Virtual environments
+__pycache__/
+*.pyc
+.env/
+gnn-env/
+data/
+models/
+results/
+.ipynb_checkpoints/# Virtual environments
 .env/
 venv/
 
