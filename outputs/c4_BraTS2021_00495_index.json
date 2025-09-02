@@ -1,0 +1,540 @@
+{
+  "meta": {
+    "created_at": "2025-09-03 03:01:45",
+    "case_id": "BraTS2021_00495",
+    "case_dir": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/data/BraTS2021_00495",
+    "model_ckpt": "outputs/checkpoints/c3_gcn_best.pt",
+    "strategy": "a2",
+    "threshold": 0.5,
+    "n_segments": 600,
+    "compactness": 10.0,
+    "pos_thresh": 0.3,
+    "slices": [
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137
+    ],
+    "num_slices": 74,
+    "prob_nii": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/c4_BraTS2021_00495_prob.nii.gz",
+    "pred_nii": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/c4_BraTS2021_00495_pred.nii.gz",
+    "save_overlays": true,
+    "overlays_dir": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/overlays_c4"
+  },
+  "items": [
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 64,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z064.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z064_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 65,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z065.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z065_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 66,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z066.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z066_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 67,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z067.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z067_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 68,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z068.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z068_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 69,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z069.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z069_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 70,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z070.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z070_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 71,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z071.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z071_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 72,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z072.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z072_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 73,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z073.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z073_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 74,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z074.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z074_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 75,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z075.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z075_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 76,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z076.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z076_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 77,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z077.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z077_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 78,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z078.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z078_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 79,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z079.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z079_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 80,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z080.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z080_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 81,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z081.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z081_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 82,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z082.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z082_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 83,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z083.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z083_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 84,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z084.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z084_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 85,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z085.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z085_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 86,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z086.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z086_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 87,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z087.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z087_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 88,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z088.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z088_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 89,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z089.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z089_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 90,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z090.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z090_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 91,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z091.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z091_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 92,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z092.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z092_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 93,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z093.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z093_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 94,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z094.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z094_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 95,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z095.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z095_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 96,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z096.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z096_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 97,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z097.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z097_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 98,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z098.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z098_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 99,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z099.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z099_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 100,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z100.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z100_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 101,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z101.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z101_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 102,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z102.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z102_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 103,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z103.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z103_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 104,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z104.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z104_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 105,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z105.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z105_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 106,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z106.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z106_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 107,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z107.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z107_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 108,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z108.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z108_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 109,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z109.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z109_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 110,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z110.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z110_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 111,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z111.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z111_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 112,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z112.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z112_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 113,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z113.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z113_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 114,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z114.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z114_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 115,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z115.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z115_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 116,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z116.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z116_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 117,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z117.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z117_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 118,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z118.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z118_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 119,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z119.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z119_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 120,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z120.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z120_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 121,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z121.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z121_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 122,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z122.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z122_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 123,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z123.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z123_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 124,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z124.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z124_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 125,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z125.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z125_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 126,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z126.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z126_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 127,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z127.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z127_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 128,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z128.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z128_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 129,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z129.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z129_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 130,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z130.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z130_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 131,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z131.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z131_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 132,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z132.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z132_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 133,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z133.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z133_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 134,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z134.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z134_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 135,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z135.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z135_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 136,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z136.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z136_pred.npz"
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "z": 137,
+      "b2_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/b2_BraTS2021_00495_z137.npz",
+      "pred_npz": "/home/khan/Desktop/Capstone/GNNBasedTumorSegmentation/GNN_TumorSeg/outputs/preds_c4/c4_BraTS2021_00495_z137_pred.npz"
+    }
+  ]
+}

@@ -1,0 +1,1585 @@
+{
+  "meta": {
+    "created_at": "2025-09-03 02:30:24",
+    "data_root": "data",
+    "out_dir": "outputs",
+    "case_glob": "BraTS*",
+    "cases_processed": 1,
+    "items": 74,
+    "args": {
+      "min_pos": 1,
+      "margin": 2,
+      "neg_ratio": 1.0,
+      "n_segments": 600,
+      "compactness": 10.0,
+      "pos_thresh": 0.3,
+      "skip_existing": true,
+      "include_existing": true,
+      "max_slices_per_case": null,
+      "seed": 42
+    },
+    "per_case_counts": {
+      "BraTS2021_00495": {
+        "pos": 70,
+        "neg": 4,
+        "selected": 74
+      }
+    }
+  },
+  "items": [
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 64,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z064.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z064.npz",
+      "K": 576,
+      "P": 0,
+      "pos_frac": 0.0,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 65,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z065.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z065.npz",
+      "K": 576,
+      "P": 0,
+      "pos_frac": 0.0,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 66,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z066.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z066.npz",
+      "K": 576,
+      "P": 0,
+      "pos_frac": 0.0,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 67,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z067.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z067.npz",
+      "K": 576,
+      "P": 2,
+      "pos_frac": 0.003472222222222222,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 68,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z068.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z068.npz",
+      "K": 576,
+      "P": 6,
+      "pos_frac": 0.010416666666666666,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 69,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z069.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z069.npz",
+      "K": 576,
+      "P": 7,
+      "pos_frac": 0.012152777777777778,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 70,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z070.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z070.npz",
+      "K": 576,
+      "P": 8,
+      "pos_frac": 0.013888888888888888,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 71,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z071.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z071.npz",
+      "K": 576,
+      "P": 11,
+      "pos_frac": 0.019097222222222224,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 72,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z072.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z072.npz",
+      "K": 576,
+      "P": 13,
+      "pos_frac": 0.022569444444444444,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 73,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z073.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z073.npz",
+      "K": 576,
+      "P": 14,
+      "pos_frac": 0.024305555555555556,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 74,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z074.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z074.npz",
+      "K": 576,
+      "P": 15,
+      "pos_frac": 0.026041666666666668,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 75,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z075.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z075.npz",
+      "K": 576,
+      "P": 15,
+      "pos_frac": 0.026041666666666668,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 76,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z076.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z076.npz",
+      "K": 576,
+      "P": 15,
+      "pos_frac": 0.026041666666666668,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 77,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z077.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z077.npz",
+      "K": 576,
+      "P": 17,
+      "pos_frac": 0.029513888888888888,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 78,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z078.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z078.npz",
+      "K": 576,
+      "P": 18,
+      "pos_frac": 0.03125,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 79,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z079.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z079.npz",
+      "K": 576,
+      "P": 21,
+      "pos_frac": 0.036458333333333336,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 80,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z080.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z080.npz",
+      "K": 576,
+      "P": 22,
+      "pos_frac": 0.03819444444444445,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 81,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z081.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z081.npz",
+      "K": 576,
+      "P": 24,
+      "pos_frac": 0.041666666666666664,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 82,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z082.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z082.npz",
+      "K": 576,
+      "P": 26,
+      "pos_frac": 0.04513888888888889,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 83,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z083.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z083.npz",
+      "K": 576,
+      "P": 25,
+      "pos_frac": 0.043402777777777776,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 84,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z084.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z084.npz",
+      "K": 576,
+      "P": 26,
+      "pos_frac": 0.04513888888888889,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 85,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z085.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z085.npz",
+      "K": 576,
+      "P": 25,
+      "pos_frac": 0.043402777777777776,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 86,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z086.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z086.npz",
+      "K": 576,
+      "P": 24,
+      "pos_frac": 0.041666666666666664,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 87,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z087.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z087.npz",
+      "K": 576,
+      "P": 23,
+      "pos_frac": 0.03993055555555555,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 88,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z088.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z088.npz",
+      "K": 576,
+      "P": 22,
+      "pos_frac": 0.03819444444444445,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 89,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z089.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z089.npz",
+      "K": 576,
+      "P": 23,
+      "pos_frac": 0.03993055555555555,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 90,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z090.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z090.npz",
+      "K": 576,
+      "P": 22,
+      "pos_frac": 0.03819444444444445,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 91,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z091.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z091.npz",
+      "K": 576,
+      "P": 22,
+      "pos_frac": 0.03819444444444445,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 92,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z092.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z092.npz",
+      "K": 576,
+      "P": 21,
+      "pos_frac": 0.036458333333333336,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 93,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z093.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z093.npz",
+      "K": 576,
+      "P": 22,
+      "pos_frac": 0.03819444444444445,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 94,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z094.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z094.npz",
+      "K": 576,
+      "P": 23,
+      "pos_frac": 0.03993055555555555,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 95,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z095.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z095.npz",
+      "K": 576,
+      "P": 23,
+      "pos_frac": 0.03993055555555555,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 96,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z096.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z096.npz",
+      "K": 576,
+      "P": 23,
+      "pos_frac": 0.03993055555555555,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 97,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z097.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z097.npz",
+      "K": 576,
+      "P": 23,
+      "pos_frac": 0.03993055555555555,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 98,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z098.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z098.npz",
+      "K": 576,
+      "P": 23,
+      "pos_frac": 0.03993055555555555,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 99,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z099.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z099.npz",
+      "K": 576,
+      "P": 23,
+      "pos_frac": 0.03993055555555555,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 100,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z100.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z100.npz",
+      "K": 576,
+      "P": 23,
+      "pos_frac": 0.03993055555555555,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 101,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z101.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z101.npz",
+      "K": 576,
+      "P": 24,
+      "pos_frac": 0.041666666666666664,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 102,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z102.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z102.npz",
+      "K": 576,
+      "P": 24,
+      "pos_frac": 0.041666666666666664,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 103,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z103.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z103.npz",
+      "K": 576,
+      "P": 24,
+      "pos_frac": 0.041666666666666664,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 104,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z104.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z104.npz",
+      "K": 576,
+      "P": 25,
+      "pos_frac": 0.043402777777777776,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 105,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z105.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z105.npz",
+      "K": 576,
+      "P": 24,
+      "pos_frac": 0.041666666666666664,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 106,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z106.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z106.npz",
+      "K": 576,
+      "P": 24,
+      "pos_frac": 0.041666666666666664,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 107,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z107.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z107.npz",
+      "K": 576,
+      "P": 23,
+      "pos_frac": 0.03993055555555555,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 108,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z108.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z108.npz",
+      "K": 576,
+      "P": 23,
+      "pos_frac": 0.03993055555555555,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 109,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z109.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z109.npz",
+      "K": 576,
+      "P": 24,
+      "pos_frac": 0.041666666666666664,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 110,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z110.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z110.npz",
+      "K": 576,
+      "P": 23,
+      "pos_frac": 0.03993055555555555,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 111,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z111.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z111.npz",
+      "K": 576,
+      "P": 22,
+      "pos_frac": 0.03819444444444445,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 112,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z112.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z112.npz",
+      "K": 576,
+      "P": 21,
+      "pos_frac": 0.036458333333333336,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 113,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z113.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z113.npz",
+      "K": 576,
+      "P": 21,
+      "pos_frac": 0.036458333333333336,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 114,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z114.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z114.npz",
+      "K": 576,
+      "P": 21,
+      "pos_frac": 0.036458333333333336,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 115,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z115.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z115.npz",
+      "K": 576,
+      "P": 19,
+      "pos_frac": 0.03298611111111111,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 116,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z116.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z116.npz",
+      "K": 576,
+      "P": 19,
+      "pos_frac": 0.03298611111111111,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 117,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z117.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z117.npz",
+      "K": 576,
+      "P": 18,
+      "pos_frac": 0.03125,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 118,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z118.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z118.npz",
+      "K": 576,
+      "P": 17,
+      "pos_frac": 0.029513888888888888,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 119,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z119.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z119.npz",
+      "K": 576,
+      "P": 15,
+      "pos_frac": 0.026041666666666668,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 120,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z120.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z120.npz",
+      "K": 576,
+      "P": 14,
+      "pos_frac": 0.024305555555555556,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 121,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z121.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z121.npz",
+      "K": 576,
+      "P": 14,
+      "pos_frac": 0.024305555555555556,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 122,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z122.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z122.npz",
+      "K": 576,
+      "P": 11,
+      "pos_frac": 0.019097222222222224,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 123,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z123.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z123.npz",
+      "K": 576,
+      "P": 9,
+      "pos_frac": 0.015625,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 124,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z124.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z124.npz",
+      "K": 576,
+      "P": 9,
+      "pos_frac": 0.015625,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 125,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z125.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z125.npz",
+      "K": 576,
+      "P": 7,
+      "pos_frac": 0.012152777777777778,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 126,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z126.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z126.npz",
+      "K": 576,
+      "P": 7,
+      "pos_frac": 0.012152777777777778,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 127,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z127.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z127.npz",
+      "K": 576,
+      "P": 7,
+      "pos_frac": 0.012152777777777778,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 128,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z128.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z128.npz",
+      "K": 576,
+      "P": 7,
+      "pos_frac": 0.012152777777777778,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 129,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z129.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z129.npz",
+      "K": 576,
+      "P": 6,
+      "pos_frac": 0.010416666666666666,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 130,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z130.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z130.npz",
+      "K": 576,
+      "P": 5,
+      "pos_frac": 0.008680555555555556,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 131,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z131.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z131.npz",
+      "K": 576,
+      "P": 5,
+      "pos_frac": 0.008680555555555556,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 132,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z132.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z132.npz",
+      "K": 576,
+      "P": 4,
+      "pos_frac": 0.006944444444444444,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 133,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z133.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z133.npz",
+      "K": 576,
+      "P": 3,
+      "pos_frac": 0.005208333333333333,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 134,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z134.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z134.npz",
+      "K": 576,
+      "P": 1,
+      "pos_frac": 0.001736111111111111,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 135,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z135.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z135.npz",
+      "K": 400,
+      "P": 0,
+      "pos_frac": 0.0,
+      "E": 760,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 136,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z136.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z136.npz",
+      "K": 576,
+      "P": 0,
+      "pos_frac": 0.0,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    },
+    {
+      "case_id": "BraTS2021_00495",
+      "case_path": "data/BraTS2021_00495",
+      "z": 137,
+      "b1_npz": "outputs/b1_BraTS2021_00495_z137.npz",
+      "b2_npz": "outputs/b2_BraTS2021_00495_z137.npz",
+      "K": 576,
+      "P": 0,
+      "pos_frac": 0.0,
+      "E": 1104,
+      "shape": [
+        240,
+        240
+      ],
+      "modalities": [
+        "flair",
+        "t1ce",
+        "t2",
+        "t1"
+      ]
+    }
+  ]
+}
